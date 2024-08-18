@@ -1,0 +1,110 @@
+.cards {
+  padding: 80px 300px 30px;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  position: relative;
+}
+
+
+.back {
+  width: 130px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.front {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  width: 150px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.judge {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-weight: 700;
+  color: cornflowerblue;
+  font-size: 18px;
+}
+
+.line {
+  margin-top: 100px;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+}
+
+.explain {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.fullscreen-message {
+  position: relative;
+  animation: surpriseEffect 0.8s ease forwards;
+}
+
+.atari {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  color: red;
+}
+
+.bingo {
+  width: 100%;
+  height: 100%;
+}
+
+.timer {
+  font-size: 20px;
+  text-align: center;
+}
+
+@keyframes surpriseEffect {
+  0% {
+    transform: scale(0) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(360deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
