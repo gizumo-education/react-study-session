@@ -1,9 +1,16 @@
 import './App.css'
+import Lane from './components/Lane/Lane'
 
 function App() {
   return (
     <>
-      <div>ここに内容を記載ください</div>
+      <section className='main'>
+        <Lane/>
+        <Lane/>
+        <Lane/>
+      </section>
+      <section className=''></section>
+      <section></section>
     </>
   )
 }
