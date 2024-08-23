@@ -48,7 +48,7 @@ function App() {
 
   return (
     <>
-    
+
       {showFullScreen === "ルフィ" && (
         <div className="fullscreen-message">
           <h1 className="atari">当たり</h1>

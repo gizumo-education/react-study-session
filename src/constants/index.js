@@ -137,24 +137,6 @@ export const cards = [
     imgPath: Sanji,
     judge: "はずれ",
   },
-  {
-    name: "チョッパー",
-    id: "chopper3",
-    imgPath: Chopper,
-    judge: "はずれ",
-  },
-  {
-    name: "ロビン",
-    id: "robin3",
-    imgPath: Robin,
-    judge: "はずれ",
-  },
-  {
-    name: "フランキー",
-    id: "franky3",
-    imgPath: Franky,
-    judge: "はずれ",
-  },
 ];
 
 
